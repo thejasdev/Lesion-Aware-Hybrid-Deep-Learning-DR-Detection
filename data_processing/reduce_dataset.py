@@ -24,7 +24,7 @@ for split in splits:
 
         images = os.listdir(src_path)
 
-        selected = random.sample(images, min(LIMIT, len(images)))
+        selected = random.sample(images, min(LIMIT, len(images)
 
         for img in selected:
             shutil.copy(
